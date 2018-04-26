@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="FortressContext-Web.config Connection String" description="FortressContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:fortressdb.database.windows.net,1433;database=FortressSystemStaging;Initial Catalog=FortressSystemStaging;Persist Security Info=False;User ID=fortressdblgn;Password=ftN0tMySQL;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Fortress\\Fortress\ Codes\ API\\FortressCodesApi\\FortressCodesApi\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FortressContext']/@connectionString" />
+  </parameter>
+  <parameter name="FortressCodeContext-Web.config Connection String" description="FortressCodeContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:fortressdb.database.windows.net,1433;database=aspnet-FortressVoucherAdminTool-Staging;initial catalog=aspnet-FortressVoucherAdminTool-Staging;User ID=fortressdblgn;Password=ftN0tMySQL;multipleactiveresultsets=True;application name=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Fortress\\Fortress\ Codes\ API\\FortressCodesApi\\FortressCodesApi\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FortressCodeContext']/@connectionString" />
+  </parameter>
+</parameters>
